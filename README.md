@@ -1,8 +1,8 @@
-## 30 days of Basic Android (Kotlin)
+# 30 days of Basic Android (Kotlin)
 
 ## Basic:
 
-### Day 0: Hello World:
+### Day 0: Hello World
 
 - Create a new Android project with an empty activity
 - Add a new resource file with the name `id.xml` to store the id of views
@@ -57,7 +57,9 @@
 
 ## Advanced:
 
-- Architecture: Model View Controller
+- Architecture: Model-View-Controller (MVC)
+- Architecture: Model-View-ViewModel (MVVM)
+- Architecture: Model-View-Intent (MVI)
 - Persisting UI State
 - Debugging Android Apps
 - Intents
