@@ -4,30 +4,30 @@
 
 ### Hello World:
 
-    - Create a new Android project with an empty activity
-    - Add a new resource file with the name `id.xml` to store the id of views
-    - Connect the `Label` to `MainActivity`
+- Create a new Android project with an empty activity
+- Add a new resource file with the name `id.xml` to store the id of views
+- Connect the `Label` to `MainActivity`
+    - Set `id`
+    - Add `findViewById`
+- "Say Hello" `Button`:
+    - Add a `Button`
+    - Add `Constraints` for the `Button`
+    - Change the `Text` attribute for the `Button` to "Say Hello"
+    - Connect to `MainActivity`
         - Set `id`
         - Add `findViewById`
-    - "Say Hello" `Button`:
-        - Add a `Button`
-        - Add `Constraints` for the `Button`
-        - Change the `Text` attribute for the `Button` to "Say Hello"
-        - Connect to `MainActivity`
-            - Set `id`
-            - Add `findViewById`
-        - Print `Logcat` - Print `Toast`
-    - "Name" `TextView`: 
-        - Add a `TextView`
-            - Change `inputType` to `textShortMessage`
-            - Change `focusable` to `true`
-            - Change `focusableInTouchMode` to `true`
-            - Change `clickable` to `true`
-            - Change `selectAllOnFocus` to `true`
-            - Set `id`
-            - Add `findViewById`
-        - Add `Constraints` for the `TextView` -> Connect to `MainActivity`
-    - Print `Hello + username` in the label when click the `Button`
+    - Print `Logcat` - Print `Toast`
+- "Name" `TextView`: 
+    - Add a `TextView`
+        - Change `inputType` to `textShortMessage`
+        - Change `focusable` to `true`
+        - Change `focusableInTouchMode` to `true`
+        - Change `clickable` to `true`
+        - Change `selectAllOnFocus` to `true`
+        - Set `id`
+        - Add `findViewById`
+    - Add `Constraints` for the `TextView` -> Connect to `MainActivity`
+- Print `Hello + username` in the label when click the `Button`
 
 ### Content: 
 
