@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="id_linearlayout_vertical_button">id_linearlayout_vertical_button</string>
+    <string name="id_linearlayout_horizontal_button">id_linearlayout_horizontal_button</string>
+</resources>

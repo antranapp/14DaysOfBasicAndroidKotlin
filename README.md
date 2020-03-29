@@ -33,6 +33,7 @@ Basic
 5. Material Design - Theming
 6. Application Lifecycle
 7. RecyclerView + RecyclerAdapter
+8. NavigationView
 8. Data persistence and Sharing
 9. Localizaion
 10. Animation
