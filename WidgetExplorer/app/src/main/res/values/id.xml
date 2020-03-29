@@ -5,7 +5,6 @@
     <string name="id_switch_button">id_switch_button</string>
     <string name="id_checkbox_button">id_checkbox_button</string>
     <string name="id_radiobutton_button">id_radiobutton_button</string>
-    <string name="id_imagebutton_button">id_imagebutton_button</string>
     <string name="id_progressbar_button">id_progressbar_button</string>
     <string name="id_spinner_button">id_spinner_button</string>
 
@@ -25,4 +24,8 @@
     <string name="id_progressbar_horizontal">id_progressbar_horizontal</string>
     <string name="id_progressbar_horizontal_button">id_progressbar_horizontal_button</string>
     <string name="id_progressbar_horizontal_label">id_progressbar_horizontal_label</string>
+
+    <!-- Spinner -->
+    <string name="id_spinner_spinner">id_spinner_spinner</string>
+
 </resources>

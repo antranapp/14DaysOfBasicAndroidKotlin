@@ -47,5 +47,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val spinnerButton = findViewById<Button>(R.id.id_spinner_button)
+        spinnerButton.setOnClickListener {
+            val intent = Intent(this, SpinnerActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -38,12 +38,6 @@
         android:text="RadioButton" />
 
     <Button
-        android:id="@+id/id_imagebutton_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ImageButton" />
-
-    <Button
         android:id="@+id/id_progressbar_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
