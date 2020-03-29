@@ -23,5 +23,29 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LinearLayoutHorizontalActivity::class.java)
             startActivity(intent)
         }
+
+        val relativeLayoutButton = findViewById<Button>(R.id.id_relativelayout_button)
+        relativeLayoutButton.setOnClickListener {
+            val intent = Intent(this, RelativeLayoutActivity::class.java)
+            startActivity(intent)
+        }
+
+        val constraintLayoutButton = findViewById<Button>(R.id.id_constraintlayout_button)
+        constraintLayoutButton.setOnClickListener {
+            val intent = Intent(this, ConstraintLayoutActivity::class.java)
+            startActivity(intent)
+        }
+
+        val frameLayoutButton = findViewById<Button>(R.id.id_framelayout_button)
+        frameLayoutButton.setOnClickListener {
+            val intent = Intent(this, FrameLayoutActivity::class.java)
+            startActivity(intent)
+        }
+
+        val tableLayoutButton = findViewById<Button>(R.id.id_tablelayout_button)
+        tableLayoutButton.setOnClickListener {
+            val intent = Intent(this, TableLayoutActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

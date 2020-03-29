@@ -30,39 +30,40 @@
             android:text="LinearLayout (Horizontal)" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/id_relativelayout_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RelativeLayout" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/id_constraintlayout_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ConstraintLayout" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/id_framelayout_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FrameLayout" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/id_tablelayout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TableLayout" />
+
+        <Button
+            android:id="@+id/id_listview_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ListView" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/id_gridview_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="GridView" />
 
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TableLayout" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

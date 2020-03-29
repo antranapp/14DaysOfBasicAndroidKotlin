@@ -1,7 +1,9 @@
-## 30 days of Android (Kotlin)
+## 30 days of Basic Android (Kotlin)
 
-Basic
-0. Intuition
+## Basic:
+
+### Hello World:
+
     - Create a new Android project with an empty activity
     - Add a new resource file with the name `id.xml` to store the id of views
     - Connect the `Label` to `MainActivity`
@@ -26,6 +28,9 @@ Basic
             - Add `findViewById`
         - Add `Constraints` for the `TextView` -> Connect to `MainActivity`
     - Print `Hello + username` in the label when click the `Button`
+
+### Content: 
+
 1. Layout Explorer
 2. Widget Explorer
 3. Pure Kotlin Layout
@@ -45,7 +50,8 @@ Basic
 16. Advanced UI: The app bar
 17. Android Database
 
-Advanced:
+## Advanced:
+
 . Architecture: Model View Controller
 . Persisting UI State
 . Debugging Android Apps
