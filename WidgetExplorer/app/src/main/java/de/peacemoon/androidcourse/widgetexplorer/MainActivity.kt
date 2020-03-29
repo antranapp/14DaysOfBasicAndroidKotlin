@@ -41,5 +41,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val progressbarButton = findViewById<Button>(R.id.id_progressbar_button)
+        progressbarButton.setOnClickListener {
+            val intent = Intent(this, ProgresbarActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

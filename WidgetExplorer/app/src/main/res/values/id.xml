@@ -18,4 +18,11 @@
     <!-- RadioButton screen -->
     <string name="id_radiobutton_group">id_radiobutton_group</string>
 
+    <!-- Progressbar screen -->
+    <string name="id_progressbar_circular">id_progressbar_circular</string>
+    <string name="id_progressbar_circular_button">id_progressbar_circular_button</string>
+    <string name="id_progressbar_circular_label">id_progressbar_circular_label</string>
+    <string name="id_progressbar_horizontal">id_progressbar_horizontal</string>
+    <string name="id_progressbar_horizontal_button">id_progressbar_horizontal_button</string>
+    <string name="id_progressbar_horizontal_label">id_progressbar_horizontal_label</string>
 </resources>

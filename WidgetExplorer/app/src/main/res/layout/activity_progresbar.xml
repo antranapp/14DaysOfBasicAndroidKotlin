@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProgresbarActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Circular ProgressBar"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/id_progressbar_circular"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/id_progressbar_circular_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/id_progressbar_circular_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCircularButtonClicked"
+        android:text="Start/Stop" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Horizontal Progressbar"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/id_progressbar_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/id_progressbar_horizontal_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/id_progressbar_horizontal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onHorizontalButtonClicked"
+        android:text="Start/Stop" />
+</LinearLayout>
