@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="id_textview_button">id_textview_button</string>
+    <string name="id_button_button">id_button_button</string>
+    <string name="id_switch_button">id_switch_button</string>
+    <string name="id_checkbox_button">id_checkbox_button</string>
+    <string name="id_radiobutton_button">id_radiobutton_button</string>
+    <string name="id_imagebutton_button">id_imagebutton_button</string>
+    <string name="id_progressbar_button">id_progressbar_button</string>
+    <string name="id_spinner_button">id_spinner_button</string>
+</resources>
