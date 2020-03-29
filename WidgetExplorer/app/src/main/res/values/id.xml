@@ -8,4 +8,14 @@
     <string name="id_imagebutton_button">id_imagebutton_button</string>
     <string name="id_progressbar_button">id_progressbar_button</string>
     <string name="id_spinner_button">id_spinner_button</string>
+
+    <!-- Switch screen -->
+    <string name="id_switch_switch">id_switch_switch</string>
+
+    <!-- Checkbox screen -->
+    <string name="id_checkbox_checkbox">id_checkbox_checkbox</string>
+
+    <!-- RadioButton screen -->
+    <string name="id_radiobutton_group">id_radiobutton_group</string>
+
 </resources>

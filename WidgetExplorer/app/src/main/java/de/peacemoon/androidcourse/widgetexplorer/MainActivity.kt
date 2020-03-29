@@ -16,5 +16,30 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TextViewActivity::class.java)
             startActivity(intent)
         }
+
+        val buttonButton = findViewById<Button>(R.id.id_button_button)
+        buttonButton.setOnClickListener {
+            val intent = Intent(this, ButtonActivity::class.java)
+            startActivity(intent)
+        }
+
+        val switchButton = findViewById<Button>(R.id.id_switch_button)
+        switchButton.setOnClickListener {
+            val intent = Intent(this, SwitchActivity::class.java)
+            startActivity(intent)
+        }
+
+        val checkboxButton = findViewById<Button>(R.id.id_checkbox_button)
+        checkboxButton.setOnClickListener {
+            val intent = Intent(this, CheckboxActivity::class.java)
+            startActivity(intent)
+        }
+
+        val radioButton = findViewById<Button>(R.id.id_radiobutton_button)
+        radioButton.setOnClickListener {
+            val intent = Intent(this, RadioButtonActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
