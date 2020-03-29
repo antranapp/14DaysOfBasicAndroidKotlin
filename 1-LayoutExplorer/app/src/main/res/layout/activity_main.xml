@@ -53,17 +53,5 @@
             android:layout_height="wrap_content"
             android:text="TableLayout" />
 
-        <Button
-            android:id="@+id/id_listview_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ListView" />
-
-        <Button
-            android:id="@+id/id_gridview_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="GridView" />
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
