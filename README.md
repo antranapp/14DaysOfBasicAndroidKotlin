@@ -38,6 +38,13 @@
     - TableLayout
 
 ### Widget Explorer
+    - TextView
+    - Button
+    - Switch
+    - Checkbox
+    - RadioButton + RadioGroup
+    - ProgressBar
+    - Spinner
 ### CardView + ScrollView
 ### Material Design - Theming
 ### Application Lifecycle
