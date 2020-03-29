@@ -29,7 +29,7 @@
     - Add `Constraints` for the `TextView` -> Connect to `MainActivity`
 - Print `Hello + username` in the label when click the `Button`
 
-### Day 1: Layout Explorer
+### Layout Explorer
     - LinearLayout (Vertical)
     - LinearLayout (Horizontal)
     - RelativeLayout
@@ -37,23 +37,22 @@
     - FrameLayout
     - TableLayout
 
-### Day 2: Widget Explorer
-### Day 3: Pure Kotlin Layout
-### Day 4: CardView + ScrollView
-### Day 5: Material Design - Theming
-### Day 6: Application Lifecycle
-### Day 7: RecyclerView + RecyclerAdapter
-### Day 8: NavigationView
-### Day 9: Data persistence and Sharing
-### Day 9. Localizaion
-### Day 10: Animation
-### Day 11: Drawing Graphics
-### Day 12: Sound effects
-### Day 13: Rotation handling 
-### Day 14: Advanced UI: Paging and Swiping
-### Day 15: Advanced UI: Navigation Drawer and Fragment
-### Day 16: Advanced UI: The app bar
-### Day 17: Android Database
+### Widget Explorer
+### CardView + ScrollView
+### Material Design - Theming
+### Application Lifecycle
+### RecyclerView + RecyclerAdapter
+### NavigationView
+### Data persistence and Sharing
+### Localizaion
+### Animation
+### Drawing Graphics
+### Sound effects
+### Rotation handling 
+### Advanced UI: Paging and Swiping
+### Advanced UI: Navigation Drawer and Fragment
+### Advanced UI: The app bar
+### Android Database
 
 ## Advanced:
 
