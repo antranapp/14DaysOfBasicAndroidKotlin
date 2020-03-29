@@ -47,5 +47,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TableLayoutActivity::class.java)
             startActivity(intent)
         }
+
+        val gridLayoutButton = findViewById<Button>(R.id.id_gridlayout_button)
+        gridLayoutButton.setOnClickListener {
+            val intent = Intent(this, GridLayoutActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

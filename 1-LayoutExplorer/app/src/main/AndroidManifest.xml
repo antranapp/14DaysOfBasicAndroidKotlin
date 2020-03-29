@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TableLayoutActivity"></activity>
+        <activity android:name=".GridLayoutActivity"></activity>
+        <activity android:name=".TableLayoutActivity" />
         <activity android:name=".FrameLayoutActivity" />
         <activity android:name=".ConstraintLayoutActivity" />
         <activity android:name=".RelativeLayoutActivity" />

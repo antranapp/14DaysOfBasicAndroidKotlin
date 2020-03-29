@@ -2,7 +2,7 @@
 
 ## Basic:
 
-### Hello World:
+### Day 0: Hello World:
 
 - Create a new Android project with an empty activity
 - Add a new resource file with the name `id.xml` to store the id of views
@@ -29,32 +29,37 @@
     - Add `Constraints` for the `TextView` -> Connect to `MainActivity`
 - Print `Hello + username` in the label when click the `Button`
 
-### Content: 
+### Day 1: Layout Explorer
+    - LinearLayout (Vertical)
+    - LinearLayout (Horizontal)
+    - RelativeLayout
+    - ConstraintLayout
+    - FrameLayout
+    - TableLayout
 
-1. Layout Explorer
-2. Widget Explorer
-3. Pure Kotlin Layout
-4. CardView + ScrollView
-5. Material Design - Theming
-6. Application Lifecycle
-7. RecyclerView + RecyclerAdapter
-8. NavigationView
-8. Data persistence and Sharing
-9. Localizaion
-10. Animation
-11. Drawing Graphics
-12. Sound effects
-13. Rotation handling 
-14. Advanced UI: Paging and Swiping
-15. Advanced UI: Navigation Drawer and Fragment
-16. Advanced UI: The app bar
-17. Android Database
+### Day 2: Widget Explorer
+### Day 3: Pure Kotlin Layout
+### Day 4: CardView + ScrollView
+### Day 5: Material Design - Theming
+### Day 6: Application Lifecycle
+### Day 7: RecyclerView + RecyclerAdapter
+### Day 8: NavigationView
+### Day 9: Data persistence and Sharing
+### Day 9. Localizaion
+### Day 10: Animation
+### Day 11: Drawing Graphics
+### Day 12: Sound effects
+### Day 13: Rotation handling 
+### Day 14: Advanced UI: Paging and Swiping
+### Day 15: Advanced UI: Navigation Drawer and Fragment
+### Day 16: Advanced UI: The app bar
+### Day 17: Android Database
 
 ## Advanced:
 
-. Architecture: Model View Controller
-. Persisting UI State
-. Debugging Android Apps
-. Intents
-. Accessibility
+- Architecture: Model View Controller
+- Persisting UI State
+- Debugging Android Apps
+- Intents
+- Accessibility
 
