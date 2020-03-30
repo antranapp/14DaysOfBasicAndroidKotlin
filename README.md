@@ -29,7 +29,7 @@
     - Add `Constraints` for the `TextView` -> Connect to `MainActivity`
 - Print `Hello + username` in the label when click the `Button`
 
-### Layout Explorer
+### Day 1: Layout Explorer
     - LinearLayout (Vertical)
     - LinearLayout (Horizontal)
     - RelativeLayout
@@ -42,7 +42,7 @@
     - gravity
     - layout_gravity
 
-### Widget Explorer
+### Day 2: Widget Explorer
     - TextView
     - Button
     - Switch
@@ -51,14 +51,17 @@
     - ProgressBar
     - Spinner
 
-### CardView + ScrollView
-### Material Design - Theming
-### Application Lifecycle
-### RecyclerView + RecyclerAdapter
+### Day 3: CardView + ScrollView
+
+### Day 4: Application Lifecycle
+
+### Day 5: RecyclerView + RecyclerAdapter
+
 ### NavigationView
 ### Data persistence and Sharing
 ### Android Database
 ### Localizaion
+### Material Design - Theming
 ### Advanced UI: Paging and Swiping
 ### Advanced UI: Navigation Drawer and Fragment
 ### Advanced UI: The app bar
