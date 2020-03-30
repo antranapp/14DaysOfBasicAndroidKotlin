@@ -1,0 +1,2 @@
+rootProject.name='DataPersistence'
+include ':app'
