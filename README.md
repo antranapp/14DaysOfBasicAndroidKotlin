@@ -57,18 +57,18 @@
 
 ### Day 5: RecyclerView + RecyclerAdapter
 
-### NavigationView
-### Data persistence and Sharing
-### Android Database
-### Networking
-### Localizaion
-### Material Design - Theming
-### Advanced UI: Paging and Swiping
-### Advanced UI: Navigation Drawer and Fragment
-### Advanced UI: The app bar
+### Day 6: Data persistence
+### Day 7: Android Database
+### Day 8: Networking
+### Day 9: Localizaion
 
 ## Advanced:
 
+- Advanced UI: Material Design - Theming
+- Advanced UI: NavigationView
+- Advanced UI: Paging and Swiping
+- Advanced UI: Navigation Drawer and Fragment
+- Advanced UI: The app bar
 - Rotation handling 
 - Animation
 - Drawing Graphics
