@@ -36,6 +36,11 @@
     - ConstraintLayout
     - FrameLayout
     - TableLayout
+    ---------
+    - layout_height, layout_width: wrap_content, match_parent
+    - padding, margin
+    - gravity
+    - layout_gravity
 
 ### Widget Explorer
     - TextView
@@ -45,24 +50,25 @@
     - RadioButton + RadioGroup
     - ProgressBar
     - Spinner
+
 ### CardView + ScrollView
 ### Material Design - Theming
 ### Application Lifecycle
 ### RecyclerView + RecyclerAdapter
 ### NavigationView
 ### Data persistence and Sharing
+### Android Database
 ### Localizaion
-### Animation
-### Drawing Graphics
-### Sound effects
-### Rotation handling 
 ### Advanced UI: Paging and Swiping
 ### Advanced UI: Navigation Drawer and Fragment
 ### Advanced UI: The app bar
-### Android Database
 
 ## Advanced:
 
+- Rotation handling 
+- Animation
+- Drawing Graphics
+- Sound effects
 - Architecture: Model-View-Controller (MVC)
 - Architecture: Model-View-ViewModel (MVVM)
 - Architecture: Model-View-Intent (MVI)
