@@ -58,8 +58,11 @@
 ### Day 5: RecyclerView + RecyclerAdapter
 
 ### Day 6: Data persistence
+
 ### Day 7: Android Database
+
 ### Day 8: Networking
+
 ### Day 9: Localizaion
 
 ## Advanced:
