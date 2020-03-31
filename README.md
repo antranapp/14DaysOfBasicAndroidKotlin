@@ -55,15 +55,17 @@
 
 ### Day 4: Application Lifecycle
 
-### Day 5: RecyclerView + RecyclerAdapter
+### Day 5: ListView
 
-### Day 6: Data persistence
+### Day 6: RecyclerView + RecyclerAdapter
 
-### Day 7: Android Database
+### Day 7: Data persistence
 
-### Day 8: Networking
+### Day 8: Android Database
 
-### Day 9: Localizaion
+### Day 9: Networking
+
+### Day 10: Localizaion
 
 ## Advanced:
 
