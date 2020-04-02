@@ -67,6 +67,10 @@
 
 ### Day 10: Localizaion
 
+### Day 11: Full App: Pixabay Photo Gallery
+    - Infinit scrolling with RecyclerView & RecyclerAdapter
+    - Using Volley to make network request. 
+
 ## Advanced:
 
 - Advanced UI: Material Design - Theming
@@ -85,4 +89,10 @@
 - Debugging Android Apps
 - Intents
 - Accessibility
+
+## Jetpack:
+
+- Architecture Component:
+- Navigation Component:
+- Paging Component: https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists
 
