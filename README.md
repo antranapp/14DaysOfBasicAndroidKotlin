@@ -67,7 +67,13 @@
 
 ### Day 10: Localizaion
 
-### Day 11: Full App: Pixabay Photo Gallery
+### Day 11: Fragment
+    - Conditionally showing the LoginFragment or the ProfileFragment in MainActivity
+    - Navigation from the ProfileFragment to LogoutFragment which has a logout button.
+    - Logged-In state is saved in SharedPreferences after logging in
+    - After logging out, users are redirected to the LoginFragment again.
+
+### Day 12: Full App: Pixabay Photo Gallery
     - Infinit scrolling with RecyclerView & RecyclerAdapter
     - Using Volley to make network request. 
 
