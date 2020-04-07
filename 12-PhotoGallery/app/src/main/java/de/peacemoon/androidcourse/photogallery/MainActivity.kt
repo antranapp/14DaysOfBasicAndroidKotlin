@@ -66,7 +66,6 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.itemAnimator = DefaultItemAnimator()
 
-        // set the adapter
         recyclerView.adapter = adapter
 
         recyclerView?.addOnScrollListener(object : PaginationScrollListener(layoutManager) {

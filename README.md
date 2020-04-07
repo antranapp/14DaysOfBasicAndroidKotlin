@@ -93,6 +93,7 @@
 - Architecture: Model-View-Intent (MVI)
 - Persisting UI State
 - Debugging Android Apps
+- Broadcast Receiver
 - Intents
 - Accessibility
 
@@ -102,3 +103,7 @@
 - Navigation Component:
 - Paging Component: https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists
 
+## 3rd Party Library
+- Volley
+- Retrofit
+- Dagger

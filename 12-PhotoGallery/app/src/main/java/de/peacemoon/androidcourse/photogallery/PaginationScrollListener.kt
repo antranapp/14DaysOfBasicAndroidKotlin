@@ -23,5 +23,6 @@ abstract class PaginationScrollListener(var layoutManager: GridLayoutManager): R
             }
         }
     }
+
     abstract fun loadMoreItems()
 }

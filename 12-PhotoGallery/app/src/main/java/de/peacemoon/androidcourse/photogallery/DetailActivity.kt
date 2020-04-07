@@ -30,7 +30,7 @@ class DetailActivity : AppCompatActivity() {
         val bundle = this.intent.extras
         val image = bundle?.get("image") as? Image
 
-        val previewURL = image?.previewURL?.let {
+        image?.previewURL?.let {
             Picasso
                 .get()
                 .load(it)

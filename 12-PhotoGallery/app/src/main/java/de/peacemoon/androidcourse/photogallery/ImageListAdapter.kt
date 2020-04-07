@@ -22,7 +22,7 @@ class ImageListAdapter(
     override fun onBindViewHolder(holder: ImageListAdapter.ListItemHolder, position: Int) {
         val image = imageList[position]
 
-        val previewURL = image.previewURL?.let {
+        image.previewURL?.let {
             Picasso
                 .get()
                 .load(it)
