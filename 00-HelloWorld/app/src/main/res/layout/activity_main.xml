@@ -28,8 +28,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/nameTextView"
+    <EditText
+        android:id="@+id/txtName"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

@@ -1,37 +1,35 @@
-package de.peacemoon.androidcourse.networking
+package app.antran.androidcourse.basic.photogallery
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.webkit.WebView
+import android.view.Window
+import android.view.WindowManager
 import android.widget.ImageView
-import android.widget.TextView
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_detail.*
 
 class DetailActivity : AppCompatActivity() {
 
-    private lateinit var txtTitle: TextView
-    private lateinit var webViewDescription: WebView
     private lateinit var imageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_detail)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        imageView = findViewById(R.id.featuredImage)
-        txtTitle = findViewById(R.id.txtTitle)
-        webViewDescription = findViewById(R.id.webView)
-        loadItem()
+        imageView = findViewById(R.id.imageView)
+
+        loadImage()
     }
 
-    private fun loadItem() {
+    private fun loadImage() {
         val bundle = this.intent.extras
-        val item = bundle?.get("item") as? RSSItem
+        val image = bundle?.get("image") as? Image
 
-        txtTitle.text = item?.title
-        webView.loadData(item?.description, "text/html", "UTF-8")
-        val url = item?.image.let {
+        image?.previewURL?.let {
             Picasso
                 .get()
                 .load(it)
@@ -39,6 +37,5 @@ class DetailActivity : AppCompatActivity() {
                 .centerInside()
                 .into(imageView)
         }
-
     }
 }

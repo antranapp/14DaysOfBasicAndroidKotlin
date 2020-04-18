@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        nameTextView = findViewById(R.id.nameTextView)
+        nameTextView = findViewById(R.id.txtName)
         textLabel = findViewById(R.id.textLabel)
 
         Toast.makeText(this, "App started", Toast.LENGTH_LONG).show()

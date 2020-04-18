@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_editor">
+
+    <fragment
+        android:id="@+id/nav_editor"
+        android:name="app.antran.androidcourse.basic.navigationview.ui.editor.EditorFragment"
+        android:label="@string/menu_editor"
+        tools:layout="@layout/fragment_editor">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_display"
+        android:name="app.antran.androidcourse.basic.navigationview.ui.display.DisplayFragment"
+        android:label="@string/menu_display"
+        tools:layout="@layout/fragment_display" />
+
+</navigation>
