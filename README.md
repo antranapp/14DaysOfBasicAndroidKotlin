@@ -52,7 +52,7 @@ Guarantee you will learn new skills after your 14 days quarantine time because o
 
 **What do you learn?**
 
--Explore how to use some common widgets in Android:
+- Explore how to use some common widgets in Android:
 	- TextView
 	- Button
 	- Switch
