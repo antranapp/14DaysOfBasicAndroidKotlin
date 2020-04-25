@@ -1,6 +1,6 @@
 # 14 days of Basic Android (Kotlin)
 
-Learning Android and Kotlin by makeing app everying.
+Learning Android and Kotlin by making app everything.
 
 Guarantee you will learn new skills after your 14 days quarantine time because of COVID-19.
 
@@ -9,7 +9,7 @@ Guarantee you will learn new skills after your 14 days quarantine time because o
 - Basic programing skill.
 - Basic Kotlin knowledge: [https://blog.teamtreehouse.com/absolute-beginners-guide-kotlin](https://blog.teamtreehouse.com/absolute-beginners-guide-kotlin)
 - Basic Object-oriented programming knowledge: Inheritance, Polyphomism etc.
-- Patience. This is actually very important since you can't learn new things fast and keep them stick without practicing a lot.
+- **Patience**! This is actually very important since you can't learn new things fast and keep them stick without practicing a lot.
  
 ## Basic:
 
@@ -174,20 +174,24 @@ Guarantee you will learn new skills after your 14 days quarantine time because o
 **Additional resources**
 
 ---
-### [Day 13: Full App: Pixabay Photo Gallery](https://github.com/antranapp/14DaysOfBasicAndroidKotlin/tree/master/13-PhotoGallery)
+### [Day 13: Pixabay Photo Gallery](https://github.com/antranapp/14DaysOfBasicAndroidKotlin/tree/master/13-PhotoGallery)
 
 **What do you learn?**
 
-- Navigation Drawer: List, Favourite
-- Persistent using SharedPreferences
-- Infinit scrolling with RecyclerView & RecyclerAdapter
-- Using Volley to make network request. 
+- Navigation Drawer: List, Favorite
+- Persistent using `SharedPreferences`
+- Infinite scrolling with `RecyclerView` & `RecyclerAdapter`
+- Using `Volley` to make network request. 
 
 **How the app looks like?**
 
 **Additional resources**
 
 ### [Day 14: Kotlin](https://github.com/antranapp/14DaysOfBasicAndroidKotlin/tree/master/14-Kotlin)
+
+## What's next:
+
+- [14 days of Android Architecture](https://github.com/antranapp/14DaysOfAndroidArchitecture)
 
 
 
